@@ -42,7 +42,7 @@ u2fun5 = get_gaussian_solution(500, 750, 0.2)
 u2fun6 = get_gaussian_solution(600, 900, 0.2)
 
 # get the integrated squared difference between solutions
-# for successive resolutions, for a 1000x1000 spacing
+# for successive resolutions, for a 2000x2000 spacing
 area12 = integrate_difference(u2fun1, u2fun2, 2000, 2000)
 area23 = integrate_difference(u2fun2, u2fun3, 2000, 2000)
 area34 = integrate_difference(u2fun3, u2fun4, 2000, 2000)

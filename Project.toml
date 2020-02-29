@@ -1,0 +1,8 @@
+name = "ScalarWaveEquation"
+uuid = "ce70350f-dbe0-4a8f-a4e5-283cfc8971d1"
+authors = ["Alexander Ibrahim <a68ibrahim@uwaterloo.ca>"]
+version = "0.1.0"
+
+[deps]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
